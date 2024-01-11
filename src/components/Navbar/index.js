@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Nav,
   NavLink,
@@ -20,7 +20,7 @@ import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
   return (
     <Nav>
