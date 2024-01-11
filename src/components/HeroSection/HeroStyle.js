@@ -32,6 +32,7 @@ export const HeroInnerContainer = styled.div`
 `;
 export const HeroLeftContainer = styled.div`
   width: 100%;
+
   order: 1;
   @media (max-width: 960px) {
     order: 2;

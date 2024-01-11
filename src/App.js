@@ -4,8 +4,10 @@ import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
-import Education from "./components/Education";
+
 import { BrowserRouter } from "react-router-dom";
+import Projects from "./Projects";
+import Footer from "./Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -38,9 +40,10 @@ function App() {
           <Hero></Hero>
           <Wrapper>
             <Skills></Skills>
-            <Education></Education>
+            <Projects></Projects>
           </Wrapper>
         </Body>
+        <Footer></Footer>
       </BrowserRouter>
     </ThemeProvider>
   );
