@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -32,17 +31,8 @@ export const HeroInnerContainer = styled.div`
 `;
 export const HeroLeftContainer = styled.div`
   width: 100%;
-
   order: 1;
   @media (max-width: 960px) {
-    order: 2;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  @media (max-width: 640px) {
     order: 2;
     margin-bottom: 30px;
     display: flex;
@@ -93,14 +83,12 @@ export const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
   }
 
   @media (max-width: 640px) {
     font-size: 40px;
-    line-height: 48px;
     margin-bottom: 8px;
   }
 `;

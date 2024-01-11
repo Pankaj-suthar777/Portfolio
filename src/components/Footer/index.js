@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Bio } from "../data/constants";
+import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -74,13 +74,6 @@ const SocialMediaIcon = styled.a`
   }
 `;
 
-const Copyright = styled.p`
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
-  text-align: center;
-`;
-
 function Footer() {
   return (
     <FooterContainer>
@@ -93,17 +86,12 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon
-            href={Bio.facebook}
-            target="display"
-          ></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"></SocialMediaIcon>
         </SocialMediaIcons>
       </FooterWrapper>
     </FooterContainer>

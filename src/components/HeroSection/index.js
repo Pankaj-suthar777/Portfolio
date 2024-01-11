@@ -1,8 +1,7 @@
 import React from "react";
-// import HeroBgAnimation from "../HeroBgAnimation";
+
 import {
   HeroContainer,
-  HeroBg,
   HeroLeftContainer,
   Img,
   HeroRightContainer,
@@ -11,8 +10,6 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import HeroImg from "../../Images/HeroImage.jpg";

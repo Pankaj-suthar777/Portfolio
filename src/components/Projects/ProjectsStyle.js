@@ -1,12 +1,7 @@
 import styled from "styled-components";
-import _default from "../utils/Themes";
+import _default from "../../utils/Themes";
 
 export const Container = styled.div`
-  background: linear-gradient(
-    343.07deg,
-    rgba(132, 59, 206, 0.06) 5.71%,
-    rgba(132, 59, 206, 0) 64.83%
-  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,11 +19,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 1350px;
-  padding: 10px 0px 100px 0;
+  padding: 30px 0px 100px 0;
   gap: 12px;
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
 `;
 
 export const Title = styled.div`
@@ -95,14 +87,4 @@ export const CardContainer = styled.div`
   align-items: center;
   gap: 28px;
   flex-wrap: wrap;
-  // display: grid;
-  // grid-template-columns: repeat(3, 1fr);
-  // grid-gap: 32px;
-  // grid-auto-rows: minmax(100px, auto);
-  // @media (max-width: 960px) {
-  //     grid-template-columns: repeat(2, 1fr);
-  // }
-  // @media (max-width: 640px) {
-  //     grid-template-columns: repeat(1, 1fr);
-  // }
 `;

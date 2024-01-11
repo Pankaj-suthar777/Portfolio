@@ -11,9 +11,9 @@ import {
   Divider,
 } from "./ProjectsStyle";
 import ProjectCard from "../Cards/ProjectCards";
-import { projects } from "../data/constants";
+import { projects } from "../../data/constants";
 
-const Projects = ({ openModal, setOpenModal }) => {
+const Projects = () => {
   const [toggle, setToggle] = useState("all");
   return (
     <Container id="projects">
@@ -64,25 +64,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               ANDROID APP'S
             </ToggleButton>
           )}
-          <Divider />
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
-            projects.map((project) => (
-              <ProjectCard
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
+            projects.map((project) => <ProjectCard project={project} />)}
           {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
-              <ProjectCard
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
+              <ProjectCard project={project} />
             ))}
         </CardContainer>
       </Wrapper>

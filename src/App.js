@@ -6,8 +6,8 @@ import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
 
 import { BrowserRouter } from "react-router-dom";
-import Projects from "./Projects";
-import Footer from "./Footer";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};

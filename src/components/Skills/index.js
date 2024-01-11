@@ -20,9 +20,6 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   gap: 12px;
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
 `;
 
 export const Title = styled.div`
@@ -123,7 +120,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>
           Here are some of my skills on which I have been working on for the
-          past 2 years.
+          past 1 years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
