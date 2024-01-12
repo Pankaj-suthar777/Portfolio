@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import { BrowserRouter } from "react-router-dom";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Services from "./components/Services";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -40,6 +41,7 @@ function App() {
           <Hero></Hero>
           <Wrapper>
             <Skills></Skills>
+            <Services></Services>
             <Projects></Projects>
           </Wrapper>
         </Body>

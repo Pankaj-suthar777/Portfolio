@@ -23,7 +23,8 @@ export const HeroInnerContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1100px;
+  gap: 15px;
+  max-width: 1200px;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -33,7 +34,7 @@ export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
   @media (max-width: 960px) {
-    order: 2;
+    order: 1;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -44,11 +45,14 @@ export const HeroLeftContainer = styled.div`
 export const HeroRightContainer = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: column;
   order: 2;
-  justify-content: end;
-  gap: 12px;
+  align-items: center;
+  //justify-content: end;
+  justify-content: center;
+  gap: 25px;
   @media (max-width: 960px) {
-    order: 1;
+    order: 2;
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
@@ -173,5 +177,63 @@ export const ResumeButton = styled.a`
   @media (max-width: 640px) {
     padding: 12px 0;
     font-size: 18px;
+  }
+`;
+
+export const Smallpara = styled.div`
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: ${({ theme }) => theme.text_primary + 95};
+
+  text-align: center;
+
+  @media (max-width: 640px) {
+    font-size: 12px;
+    line-height: 22px;
+  }
+`;
+
+export const RightTitle = styled.div`
+  font-weight: 600;
+  font-size: 40px;
+  color: ${({ theme }) => theme.text_primary};
+
+  text-align: center;
+
+  @media (max-width: 640px) {
+    margin-bottom: 8px;
+  }
+`;
+
+export const RightImg = styled.img`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
+
+  background-color: transparent;
+
+  @media (max-width: 768px) {
+    max-width: 170px;
+    max-height: 170px;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 150px;
+    max-height: 150px;
+  }
+`;
+
+export const Smallheading = styled.div`
+  font-weight: 600;
+  font-size: 28px;
+  color: ${({ theme }) => theme.text_primary};
+
+  text-align: center;
+
+  @media (max-width: 640px) {
+    margin-bottom: 8px;
   }
 `;
