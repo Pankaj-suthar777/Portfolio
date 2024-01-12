@@ -154,7 +154,9 @@ function Services() {
             apps, are available to streamline your operations, increase user
             engagement and boost company growth.
           </SubTitle>
-          <Btn>Get in touch</Btn>
+          <a href="#contact" style={{ textDecoration: "none" }}>
+            <Btn>Get in toach</Btn>
+          </a>
         </InnerContainer>
       </Container>
     </div>

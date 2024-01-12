@@ -49,6 +49,7 @@ export const HeroRightContainer = styled.div`
   order: 2;
   align-items: center;
   //justify-content: end;
+  padding: 0 20px;
   justify-content: center;
   gap: 25px;
   @media (max-width: 960px) {

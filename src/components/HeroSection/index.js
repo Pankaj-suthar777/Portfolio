@@ -100,7 +100,9 @@ const Hero = () => {
             {/* <ResumeButton href={Bio.resume} target="display">
               Check Resume
             </ResumeButton> */}
-            <Btn>Get in toach</Btn>
+            <a href="#contact" style={{ textDecoration: "none" }}>
+              <Btn>Get in toach</Btn>
+            </a>
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
