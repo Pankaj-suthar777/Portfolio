@@ -180,13 +180,13 @@ function Contact() {
                 <LinkedInIcon />
               </SocialMediaIcon>
             </SocialMediaIcons>
-            <Label>Name</Label>
-            <Input type="text" name="user_name" />
+      
+            <Input type="text" name="user_name" placeholder='Name' />
 
-            <Label>Email</Label>
-            <Input type="email" name="user_email" />
-            <Label>Message</Label>
-            <Textarea rows={4} name="message" />
+           
+            <Input type="email" name="user_email" placeholder='Email' />
+     
+            <Textarea rows={4} name="message" placeholder='Message' />
             <Btn type="submit" value="Send">
               <span class="text">Send</span>
             </Btn>
