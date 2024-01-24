@@ -2,6 +2,7 @@ import rmp from "../Images/rmp.png";
 import fastPizza from "../Images/fastPizza.png";
 import Rupee from "../Images/Rupee.png";
 import wnder from "../Images/wnderlust.png";
+import proshipshop from '../Images/proshipshop.png'
 
 export const Bio = {
   name: "Pankaj Suthar",
@@ -46,6 +47,11 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201",c:\Users\panka\OneDrive\Desktop\Screenshot 2024-01-24 102214.png
       },
       {
         name: "Bootstrap",
@@ -127,8 +133,7 @@ export const projects = [
   {
     id: 1,
     title: "Refurbhised Market Place",
-    description:
-      "Introducing RMP, a user-friendly web application dedicated to refurbished products. With RMP, users can effortlessly create an account, securely log in, and experience enhanced authentication through JWT (JSON Web Token). This platform empowers individuals to sell their refurbished items with ease.",
+    description: "Introducing RMP, a user-friendly web application dedicated to refurbished products. With RMP, users can effortlessly create an account, securely log in, and experience enhanced authentication through JWT (JSON Web Token). This platform empowers individuals to sell their refurbished items with ease.",
     image: `${rmp}`,
     tags: [
       "React Js",
@@ -143,6 +148,35 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/refurbished-market-place.git",
     webapp: "https://refurbhised-maket-place.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "ProShipShop E-Commerce Shop",
+    description:`Introducing a E-Commerce web application, with features of - 
+    Product reviews and ratings,
+    Top products carousel,
+    Product search feature,
+    User profile with orders,
+    Admin product management,
+    Admin user management,
+    Admin Order details page,
+    Mark orders as delivered option,
+    Checkout process (shipping, payment method, etc),
+    PhonePay / credit card integration`,
+      
+    image: `${proshipshop}`,
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Bootstrap",
+      "JWT",
+    ],
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/ecommerce-shop.git",
+    webapp: "https://proshipshop.onrender.com/",
   },
   {
     id: 2,
