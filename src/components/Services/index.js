@@ -5,7 +5,6 @@ import styled from "styled-components";
 const Container = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
-  height: 90vh;
   justify-content: center;
   position: relative;
   align-items: center;
