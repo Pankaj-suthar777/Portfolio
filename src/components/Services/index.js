@@ -89,7 +89,22 @@ const Btn = styled.button`
 const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  color: ${({ theme }) => theme.text_secondary};
+  @media (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+`;
+
+const Title2 = styled.div`
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 10px;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 960px) {
     text-align: center;
@@ -121,7 +136,8 @@ const TextLoop = styled.div`
 const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
+  margin-top: 12px;
   color: ${({ theme }) => theme.text_primary + 95};
 
   @media (max-width: 960px) {
@@ -153,6 +169,11 @@ function Services() {
             systems, secure eCommerce deployments, as well as multi-platform
             apps, are available to streamline your operations, increase user
             engagement and boost company growth.
+          </SubTitle>
+
+          <SubTitle>
+            Creating meaningful solutions for businesses of all sizes, with
+            modern design principles
           </SubTitle>
           <a href="#contact" style={{ textDecoration: "none" }}>
             <Btn>Get in toach</Btn>

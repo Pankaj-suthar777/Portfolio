@@ -115,7 +115,7 @@ const Hero = () => {
             <div
               style={{
                 borderRadius: "12px",
-                padding: "10px 5px",
+                padding: "10px 25px",
                 maxWidth: "500px",
                 background: "#171721",
                 border: "0.1px solid #854ce6",
@@ -127,33 +127,13 @@ const Hero = () => {
                 From start to finish, I work with you. I want to understand
                 everything about your buisness
               </Smallpara>
-            </div>
-            <div
-              style={{
-                borderRadius: "12px",
-                padding: "10px 5px",
-                maxWidth: "500px",
-                background: "#171721",
-                border: "0.1px solid #854ce6",
-                boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
-              }}
-            >
+
               <Smallheading>Understand</Smallheading>
               <Smallpara>
                 Before i even begin to build anything. I make sure i understand
                 all the pieces
               </Smallpara>
-            </div>
-            <div
-              style={{
-                borderRadius: "12px",
-                padding: "10px 5px",
-                maxWidth: "500px",
-                background: "#171721",
-                border: "0.1px solid #854ce6",
-                boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
-              }}
-            >
+
               <Smallheading>Execute</Smallheading>
               <Smallpara>
                 I'll create a strategy with your company, and then execute the

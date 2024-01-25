@@ -79,6 +79,7 @@ const Container = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
+  height: 100vh;
   position: relative;
   align-items: center;
   padding: 80px 30px;
@@ -180,13 +181,12 @@ function Contact() {
                 <LinkedInIcon />
               </SocialMediaIcon>
             </SocialMediaIcons>
-      
-            <Input type="text" name="user_name" placeholder='Name' />
 
-           
-            <Input type="email" name="user_email" placeholder='Email' />
-     
-            <Textarea rows={4} name="message" placeholder='Message' />
+            <Input type="text" name="user_name" placeholder="Name" />
+
+            <Input type="email" name="user_email" placeholder="Email" />
+
+            <Textarea rows={4} name="message" placeholder="Message" />
             <Btn type="submit" value="Send">
               <span class="text">Send</span>
             </Btn>

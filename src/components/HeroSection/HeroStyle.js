@@ -184,7 +184,7 @@ export const ResumeButton = styled.a`
 export const Smallpara = styled.div`
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: ${({ theme }) => theme.text_primary + 95};
 
   text-align: center;
@@ -231,7 +231,7 @@ export const Smallheading = styled.div`
   font-weight: 600;
   font-size: 28px;
   color: ${({ theme }) => theme.text_primary};
-
+  margin-top: 15px;
   text-align: center;
 
   @media (max-width: 640px) {

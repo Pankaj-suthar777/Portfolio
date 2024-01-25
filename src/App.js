@@ -41,9 +41,9 @@ function App() {
         <Body>
           <Hero></Hero>
           <Wrapper>
-            <Skills></Skills>
             <Services></Services>
             <Contact></Contact>
+            <Skills></Skills>
             <Projects></Projects>
           </Wrapper>
         </Body>
