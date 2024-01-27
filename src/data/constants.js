@@ -1,7 +1,7 @@
 import rmp from "../Images/rmp.png";
 import fastPizza from "../Images/fastPizza.png";
 import Rupee from "../Images/Rupee.png";
-import wnder from "../Images/wnderlust.png";
+import wnder from "../Images/wnder.png";
 import proshipshop from "../Images/proshipshop.png";
 
 export const Bio = {
