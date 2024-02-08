@@ -58,6 +58,10 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
+{
+name : "Tailwind",
+image : "https://www.drupal.org/files/project-images/screenshot_361.png"
+},
       {
         name: "Material UI",
         image:
