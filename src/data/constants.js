@@ -3,6 +3,7 @@ import fastPizza from "../Images/fastPizza.png";
 import Rupee from "../Images/Rupee.png";
 import wnder from "../Images/wnder.png";
 import proshipshop from "../Images/proshipshop.png";
+import NextEvents from "../Images/NextEvents.png";
 
 export const Bio = {
   name: "Pankaj Suthar",
@@ -197,6 +198,17 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/pizza-react-app.git",
     webapp: "https://pizza-react-app-000.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "eventYoulike",
+    description:
+      "eventYoulike is a full-stack web application built with Next.js, MongoDB, and Cleark that simplifies event booking for both organizers and attendees.",
+    image: `${NextEvents}`,
+    tags: ["Next Js","React Js","MongoDB" ,"Cleark Js", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/next-EventsYouLike.git",
+    webapp: "https://next-events-you-like.vercel.app/",
   },
   {
     id: 3,
