@@ -139,6 +139,17 @@ image : "https://www.drupal.org/files/project-images/screenshot_361.png"
 ];
 
 export const projects = [
+   {
+    id: 9,
+    title: "eventYoulike",
+    description:
+      "eventYoulike is a full-stack web application built with Next.js, MongoDB, and Cleark that simplifies event booking for both organizers and attendees.",
+    image: `${NextEvents}`,
+    tags: ["Next Js","React Js","MongoDB" ,"Cleark Js", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/next-EventsYouLike.git",
+    webapp: "https://next-events-you-like.vercel.app/",
+  },
   {
     id: 1,
     title: "Refurbhised Market Place",
@@ -198,17 +209,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/pizza-react-app.git",
     webapp: "https://pizza-react-app-000.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "eventYoulike",
-    description:
-      "eventYoulike is a full-stack web application built with Next.js, MongoDB, and Cleark that simplifies event booking for both organizers and attendees.",
-    image: `${NextEvents}`,
-    tags: ["Next Js","React Js","MongoDB" ,"Cleark Js", "Tailwind"],
-    category: "web app",
-    github: "https://github.com/Pankaj-suthar777/next-EventsYouLike.git",
-    webapp: "https://next-events-you-like.vercel.app/",
   },
   {
     id: 3,
