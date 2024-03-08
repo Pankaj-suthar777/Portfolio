@@ -145,7 +145,7 @@ export const projects = [
     description:
       "eventYoulike is a full-stack web application built with Next.js, MongoDB, and Cleark that simplifies event booking for both organizers and attendees.",
     image: `${NextEvents}`,
-    tags: ["Next Js","React Js","MongoDB" ,"Cleark Js", "Tailwind"],
+    tags: ["Next Js","React Js","MongoDB" ,"Cleark Js", "Tailwind", "NextUi"],
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/next-EventsYouLike.git",
     webapp: "https://next-events-you-like.vercel.app/",
