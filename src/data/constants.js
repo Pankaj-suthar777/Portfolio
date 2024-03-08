@@ -53,6 +53,10 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201",
       },
+{
+name : NextUi,
+image : "https://raw.githubusercontent.com/nextui-org/nextui/main/apps/docs/public/isotipo.png",
+},
       {
         name: "Bootstrap",
         image:
