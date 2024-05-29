@@ -4,6 +4,7 @@ import Rupee from "../Images/Rupee.png";
 import wnder from "../Images/wnder.png";
 import proshipshop from "../Images/proshipshop.png";
 import NextEvents from "../Images/NextEvents.png";
+import NextBookNow from "../Images/next-booknow.png";
 
 export const Bio = {
   name: "Pankaj Suthar",
@@ -54,19 +55,20 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201",
       },
-{
-name : "NextUi",
-image : "https://raw.githubusercontent.com/nextui-org/nextui/main/apps/docs/public/isotipo.png",
-},
+      {
+        name: "NextUi",
+        image:
+          "https://raw.githubusercontent.com/nextui-org/nextui/main/apps/docs/public/isotipo.png",
+      },
       {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-{
-name : "Tailwind",
-image : "https://www.drupal.org/files/project-images/screenshot_361.png"
-},
+      {
+        name: "Tailwind",
+        image: "https://www.drupal.org/files/project-images/screenshot_361.png",
+      },
       {
         name: "Material UI",
         image:
@@ -139,36 +141,16 @@ image : "https://www.drupal.org/files/project-images/screenshot_361.png"
 ];
 
 export const projects = [
-   {
+  {
     id: 9,
     title: "eventYoulike",
     description:
       "eventYoulike is a full-stack web application built with Next.js, MongoDB, and Cleark that simplifies event booking for both organizers and attendees.",
     image: `${NextEvents}`,
-    tags: ["Next Js","React Js","MongoDB" ,"Cleark Js", "Tailwind", "NextUi"],
+    tags: ["Next Js", "React Js", "MongoDB", "Cleark Js", "Tailwind", "NextUi"],
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/next-EventsYouLike.git",
     webapp: "https://next-events-you-like.vercel.app/",
-  },
-  {
-    id: 1,
-    title: "Refurbhised Market Place",
-    description:
-      "Introducing RMP, a user-friendly web application dedicated to refurbished products. With RMP, users can effortlessly create an account, securely log in, and experience enhanced authentication through JWT (JSON Web Token). This platform empowers individuals to sell their refurbished items with ease.",
-    image: `${rmp}`,
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "Tailwind",
-      "Antd",
-      "JWT",
-    ],
-    category: "web app",
-    github: "https://github.com/Pankaj-suthar777/refurbished-market-place.git",
-    webapp: "https://refurbhised-maket-place.onrender.com/",
   },
   {
     id: 5,
@@ -200,6 +182,48 @@ export const projects = [
     webapp: "https://proshipshop.onrender.com/",
   },
   {
+    id: 1,
+    title: "Refurbhised Market Place",
+    description:
+      "Introducing RMP, a user-friendly web application dedicated to refurbished products. With RMP, users can effortlessly create an account, securely log in, and experience enhanced authentication through JWT (JSON Web Token). This platform empowers individuals to sell their refurbished items with ease.",
+    image: `${rmp}`,
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Tailwind",
+      "Antd",
+      "JWT",
+    ],
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/refurbished-market-place.git",
+    webapp: "https://refurbhised-maket-place.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "BookIt",
+    description:
+      "BookIT is a comprehensive room booking application featuring custom error handling, advanced filters, search, and pagination. It leverages Next.js for data fetching, Redux for state management, next-auth for authentication, Stripe for payments, and includes admin booking sales charts.",
+    image: `${NextBookNow}`,
+    tags: [
+      "React Js",
+      "Next js",
+      "MongoDb",
+      "Redux",
+      "Bootstrap",
+      "Stripe",
+      "next auth",
+      "chartjs-2",
+      "JWT",
+    ],
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/pizza-react-app.git",
+    webapp:
+      "https://next-booknow-efm2qzarr-pankajs-projects-1f54d63d.vercel.app",
+  },
+  {
     id: 2,
     title: "Fast Pizza",
     description:
@@ -209,28 +233,5 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/pizza-react-app.git",
     webapp: "https://pizza-react-app-000.netlify.app/",
-  },
-  {
-    id: 3,
-    title: "Ruppe Web",
-    description:
-      "Introducing Rupee Web, a sleek website masterfully created with React and Styled Components, elegant styling, and smooth scrolling. Enjoy a visually appealing and user-friendly experience that effortlessly adapts to your actions.",
-    image: `${Rupee}`,
-    tags: ["React Js", "Styled Component"],
-    category: "web app",
-    github:
-      "https://github.com/Pankaj-suthar777/react-smooth-scroll-demo-website.git",
-    webapp: "https://react-smooth-scroll-website-rupee.netlify.app",
-  },
-  {
-    id: 4,
-    title: "Wanderlust",
-    description:
-      "This site is clone of airbnb user can login register to add listings and review listings",
-    image: `${wnder}`,
-    tags: ["JavaScript", "EJS", "MongoDB", "NodeJs", "PassportJs"],
-    category: "web app",
-    github: "https://github.com/Pankaj-suthar777/wanderlust-airbnb-clone.git",
-    webapp: "https://wanderlust-airbnb-clone-jrn3.onrender.com/listing",
   },
 ];
