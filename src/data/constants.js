@@ -181,6 +181,27 @@ export const projects = [
     github: "https://github.com/Pankaj-suthar777/ecommerce-shop.git",
     webapp: "https://proshipshop.onrender.com/",
   },
+
+  {
+    id: 3,
+    title: "BookIt",
+    description:
+      "BookIT is a comprehensive room booking application featuring custom error handling, advanced filters, search, and pagination. It leverages Next.js for data fetching, Redux for state management, next-auth for authentication, Stripe for payments, and includes admin booking sales charts.",
+    image: `${NextBookNow}`,
+    tags: [
+      "React Js",
+      "Next js",
+      "MongoDb",
+      "Redux",
+      "Stripe",
+      "next auth",
+      "JWT",
+    ],
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/pizza-react-app.git",
+    webapp:
+      "https://next-booknow-efm2qzarr-pankajs-projects-1f54d63d.vercel.app",
+  },
   {
     id: 1,
     title: "Refurbhised Market Place",
@@ -200,28 +221,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Pankaj-suthar777/refurbished-market-place.git",
     webapp: "https://refurbhised-maket-place.onrender.com/",
-  },
-  {
-    id: 3,
-    title: "BookIt",
-    description:
-      "BookIT is a comprehensive room booking application featuring custom error handling, advanced filters, search, and pagination. It leverages Next.js for data fetching, Redux for state management, next-auth for authentication, Stripe for payments, and includes admin booking sales charts.",
-    image: `${NextBookNow}`,
-    tags: [
-      "React Js",
-      "Next js",
-      "MongoDb",
-      "Redux",
-      "Bootstrap",
-      "Stripe",
-      "next auth",
-      "chartjs-2",
-      "JWT",
-    ],
-    category: "web app",
-    github: "https://github.com/Pankaj-suthar777/pizza-react-app.git",
-    webapp:
-      "https://next-booknow-efm2qzarr-pankajs-projects-1f54d63d.vercel.app",
   },
   {
     id: 2,
