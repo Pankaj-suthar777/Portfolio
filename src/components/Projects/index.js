@@ -10,11 +10,12 @@ import {
   ToggleButton,
   Divider,
 } from "./ProjectsStyle";
-import ProjectCard from "../Cards/ProjectCards";
+import WebProjectCards from "../Cards/WebProjectCards";
+import MobileProjectCard from "../Cards/MobileProjectCard";
 import { projects } from "../../data/constants";
 
 const Projects = () => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle, setToggle] = useState("web app");
   return (
     <Container id="projects">
       <Wrapper>
@@ -24,16 +25,6 @@ const Projects = () => {
           apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
-          {toggle === "all" ? (
-            <ToggleButton active value="all" onClick={() => setToggle("all")}>
-              All
-            </ToggleButton>
-          ) : (
-            <ToggleButton value="all" onClick={() => setToggle("all")}>
-              All
-            </ToggleButton>
-          )}
-          <Divider />
           {toggle === "web app" ? (
             <ToggleButton
               active
@@ -48,31 +39,36 @@ const Projects = () => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
+          {toggle === "mobile app" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="mobile app"
+              onClick={() => setToggle("mobile app")}
             >
-              ANDROID APP'S
+              MOBILE APP'S
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="mobile app"
+              onClick={() => setToggle("mobile app")}
             >
-              ANDROID APP'S
+              MOBILE APP'S
             </ToggleButton>
           )}
         </ToggleButtonGroup>
         <CardContainer>
-          {toggle === "all" &&
-            projects.map((project) => <ProjectCard project={project} />)}
-          {projects
-            .filter((item) => item.category == toggle)
+          {/* {projects
+            .filter((item) => item.category === toggle)
             .map((project) => (
-              <ProjectCard project={project} />
-            ))}
+              <WebProjectCards project={project} />
+            ))} */}
+          {toggle === "web app"
+            ? projects
+                .filter((item) => item.category === "web app")
+                .map((project) => <WebProjectCards project={project} />)
+            : projects
+                .filter((item) => item.category === "mobile app")
+                .map((project) => <MobileProjectCard project={project} />)}
         </CardContainer>
       </Wrapper>
     </Container>

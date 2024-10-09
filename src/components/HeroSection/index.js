@@ -97,14 +97,26 @@ const Hero = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            {/* <ResumeButton href={Bio.resume} target="display">
-              Check Resume
-            </ResumeButton> */}
-            <a href="#contact" style={{ textDecoration: "none" }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: 8,
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
+              {/* <a href="#contact" style={{ textDecoration: "none" }}>
+                <Btn>Get in toach</Btn>
+              </a> */}
+              <ResumeButton href={Bio.resume} target="display">
+                Check Resume
+              </ResumeButton>
+            </div>
+            {/* <a href="#contact" style={{ textDecoration: "none" }}>
               <Btn>Get in toach</Btn>
-            </a>
+            </a> */}
           </HeroLeftContainer>
-
           <HeroRightContainer id="Right">
             {/*  <Img src={HeroImg} alt="hero-image" /> */}
             <RightTitle>How I Develop Websites</RightTitle>
