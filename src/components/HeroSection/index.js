@@ -106,12 +106,12 @@ const Hero = () => {
                 justifyContent: "space-between",
               }}
             >
-              {/* <a href="#contact" style={{ textDecoration: "none" }}>
+              <a href="#contact" style={{ textDecoration: "none" }}>
                 <Btn>Get in toach</Btn>
-              </a> */}
-              <ResumeButton href={Bio.resume} target="display">
+              </a>
+              {/* <ResumeButton href={Bio.resume} target="display">
                 Check Resume
-              </ResumeButton>
+              </ResumeButton> */}
             </div>
             {/* <a href="#contact" style={{ textDecoration: "none" }}>
               <Btn>Get in toach</Btn>

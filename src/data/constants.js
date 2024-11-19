@@ -7,6 +7,7 @@ import SwiftMedia from "../Images/SwiftMedia.png";
 import SwiftMediaMobile from "../Images/SwiftMediaMobile.jpg";
 import WhatsappClone from "../Images/WhatsappClone.jpg";
 import PodifyPlayer from "../Images/PodifyPlayer.jpg";
+import mEcom from "../Images/M-ecom.png";
 
 export const Bio = {
   name: "Pankaj Suthar",
@@ -203,6 +204,7 @@ export const projects = [
     github: "https://github.com/Pankaj-suthar777/swift-media-mern",
     webapp: "https://swift-rivals-mern.vercel.app/",
   },
+
   {
     id: 5,
     title: "ProShipShop E-Commerce Shop",
@@ -232,7 +234,25 @@ export const projects = [
     github: "https://github.com/Pankaj-suthar777/ecommerce-shop",
     webapp: "https://proshipshop.onrender.com/",
   },
-
+  {
+    id: 55,
+    title: "Multivendor E-Commerce",
+    image: `${mEcom}`,
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Tailwind",
+      "JWT",
+    ],
+    description:
+      "A Full-Stack Multivendor E-commerce Application built with React.js, Redux, Node.js, Express.js, and MongoDB. It includes features like product filters, wishlists, reviews, seller dashboards with sales analytics, and admin management tools. Real-time chat is enabled via Socket.io, and MongoDB aggregation pipelines handle complex queries for reporting. Secure payments are integrated with Stripe, allowing smooth transactions for sellers and buyers.",
+    category: "web app",
+    github: "https://github.com/Pankaj-suthar777/mutivendor-ecommerce-mern",
+    webapp: "https://mutivendor-ecommerce-mern-frontend.vercel.app/",
+  },
   {
     id: 3,
     title: "BookIt",
